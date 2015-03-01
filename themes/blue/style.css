@@ -1,4 +1,7 @@
 /* tables */
+body {
+    font-family:arial;
+}
 table.tablesorter {
 	font-family:arial;
 	background-color: #CDCDCD;
