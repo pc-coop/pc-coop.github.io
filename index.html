@@ -7,7 +7,16 @@
 </head>
 <body>
     <p>hello world</p>
+
+    <div id="CSVTable"></div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="jquery.csvToTable.js"></script>
+<script>
+$(function() {
+  $('#CSVTable').CSVToTable('data.csv');
+});
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/can.js/1.1.7/can.jquery.min.js"></script>
 </body>
